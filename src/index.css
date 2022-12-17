@@ -18,7 +18,7 @@
   scroll-behavior: smooth;
 }
 
-*/ .text-gradient {
+.text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
     #def9fa 0.89%,
@@ -120,7 +120,8 @@
   background: transparent;
 }
 
-.feedback-card:hover {
+.feedback-card:hover,
+.swiper-slide-next {
   background: var(--black-gradient);
 }
 
@@ -137,4 +138,14 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+@media (max-width: 768px) {
+  .swiper-slide-next {
+    background: transparent;
+  }
+
+  .swiper-slide-active {
+    background: var(--black-gradient);
+  }
 }

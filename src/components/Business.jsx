@@ -3,9 +3,9 @@ import { features } from "../constants";
 
 const Business = () => {
   return (
-    <div className="flex flex-col md:flex-row  px-6 sm:px-16 xl:px-0 py-10 md:py-20 capitalize gap-y-10 md:gap-x-10 justify-between">
+    <div className="flex flex-col md:flex-row px-6 sm:px-16 xl:px-0 py-10 md:py-20 capitalize gap-y-10 md:gap-x-10 justify-between">
       <div className="w-full md:w-1/2 flex flex-col justify-evenly gap-y-8">
-        <h1 className="text-4xl sm:text-5xl font-bold leading-relaxed ">
+        <h1 className="text-4xl sm:text-5xl font-bold !leading-tight ">
           you do the business <br /> we'll handle the money
         </h1>
         <p className="font-poppins w-[90%] text-white/70 text-lg">

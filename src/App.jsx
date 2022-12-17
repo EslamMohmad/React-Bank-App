@@ -1,5 +1,16 @@
 import React from "react";
-import { Navbar, Header, Stats, Business } from "./components";
+import {
+  Navbar,
+  Header,
+  Stats,
+  Business,
+  Billing,
+  CardDeal,
+  FAQ,
+  OurServices,
+  Footer,
+  CopyRights,
+} from "./components";
 
 const App = () => (
   <div className="bg-primary w-full overflow-hidden text-white">
@@ -13,6 +24,12 @@ const App = () => (
       <Header />
       <Stats />
       <Business />
+      <Billing />
+      <CardDeal />
+      <FAQ />
+      <OurServices />
+      <Footer />
+      <CopyRights />
     </div>
   </div>
 );
